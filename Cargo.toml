@@ -8,9 +8,9 @@ version     = "0.4.0"
 
 [dependencies]
 byteorder       = { version = "1.4.2", default-features = false }
-ethereum-types  = { version = "0.11.0", default-features = false }
-primitive-types = { version = "0.9.0", default-features = false, features = ["rlp"] }
-rlp             = { version = "0.5.0", default-features = false }
+ethereum-types  = { default-features = false, git = "https://github.com/darwinia-network/parity-common.git" }
+primitive-types = { default-features = false, git = "https://github.com/darwinia-network/parity-common.git", features = ["rlp"] }
+rlp             = { default-features = false, git = "https://github.com/darwinia-network/parity-common.git" }
 sha3            = { version = "0.9.1", default-features = false }
 
 [dev-dependencies]
